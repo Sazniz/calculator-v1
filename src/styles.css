@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+.container {
+  font-family: 'Roboto Slab', serif;
+  box-shadow: 0 0 16px 4px #adb2b8;
+  width: 250px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.sumcontainer {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  text-align: right;
+  padding: 32px 24px;
+  font-size: 48px;
+  line-height: 48px;
+}
+.sum {
+  color:white;
+}
+
+.history {
+  font-size: 12px;
+  color: white;
+}
+button {
+  background-color: #e4e4e4;
+  color: black;
+  border: none;
+  padding: 16px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+button:hover {
+  opacity: 0.5;
+
+
+}
+.numbercontainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.rowcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rowcontainer3x {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.redbutton {
+  color: red;
+}
+
+.row4btn3 {
+  background:linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  color: white;
+  border: none;
+  padding: 16px;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.grey {
+  background-color: #c5c8c9;
+  color: black;
+  f
+}
